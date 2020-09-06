@@ -1,0 +1,46 @@
+.App {
+  background-color: #191414;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: space-between;
+  background-image: url(./logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
+
+}
+.Title {
+  color: #1DB954 !important;
+}
+.Column {
+  align-items: center;
+  justify-content: center;
+}
+.SigninBtn {
+  background-color: #1DB954;
+  color: #000000;
+  font-weight: 600;
+  border-color: #000000;
+}
+.SigninBtn:hover {
+  background-color: #1DB954;
+  font-weight: 600;
+  border-color: #000000;
+}
+.Box {
+  background-color: #000000;
+  color: white;
+  padding: 1em;
+  margin-top: 1em;
+  width: 15em;
+}
+.BoxItem {
+  font-size: .5em;
+
+}
+.Footer {
+  font-size: .5em;
+}
